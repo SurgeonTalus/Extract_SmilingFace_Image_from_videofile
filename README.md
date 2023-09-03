@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Extract Smiling Face Image from Video</title>
 </head>
 <body>
 
@@ -19,8 +18,12 @@ pip install numpy
 pip install ffmpeg-python
 </code></pre>
 
-<p>Download and extract this file to the same directory/folder:</p>
+<p>Download and extract this file to the same directory/folder as the other files in this repo:</p>
 <p><a href="http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2">shape_predictor_68_face_landmarks.dat</a></p>
+
+These two files are added in the repo but can also be found at their original place here:
+https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_smile.xml
+https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml
 
 <p>Add a videofile called <code>input_video.MOV</code> to the path.</p>
 <p>Navigate to the folder in the terminal using the CD command and drag the file path to it.</p>

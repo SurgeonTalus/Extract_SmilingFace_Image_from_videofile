@@ -4,14 +4,18 @@
 </head>
 <body>
 
-<h1>Extract_SmilingFace_Image_from_videofile</h1>
+<h1>Extract SmilingFace Image frames from videofile</h1>
 
 <p>If there is a smiling face in a video, it will extract the image and save it as a video file.</p>
 
 <p>Download all the files to the same directory.</p>
 
-<h2>RUN:</h2>
+<h2>Example:</h2>
 
+<img src=https://github.com/SurgeonTalus/Extract_SmilingFace_Image_from_videofile/blob/main/Beast.png width="1000"/>
+
+<h3>Two Images extracted from the video.</h3>
+<h2>RUN:</h2>
 <pre><code>pip install opencv-python-headless
 pip install dlib
 pip install numpy
